@@ -1,10 +1,10 @@
 # 03 Building the Thermistor Circuit
 
-In space, temperatures can fluctuate by hundreds of degrees[cite: 16]. To prevent our spacecraft from freezing, we need a way to measure the temperature so we know when to turn our "heater" (the LED) on. 
+In space, temperatures can fluctuate by hundreds of degrees. To prevent our spacecraft from freezing, we need a way to measure the temperature so we know when to turn our "heater" (the LED) on. 
 
 We will do this using a **Thermistor**—a special type of resistor that changes its resistance based on how hot or cold it is. 
 
-However, an Arduino cannot measure resistance directly; it can only measure *voltage*. To fix this, we will build a **Voltage Divider** by combining the thermistor with a standard 10kΩ fixed resistor[cite: 16].
+However, an Arduino cannot measure resistance directly; it can only measure *voltage*. To fix this, we will build a **Voltage Divider** by combining the thermistor with a resistor.
 
 ## Building the Circuit
 

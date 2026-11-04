@@ -4,7 +4,7 @@ Now that our Arduino is reading the thermistor, it's time to create our telemetr
 
 We are going to use the **Serial Plotter** to graph our temperature data against a target temperature, creating a visual dashboard just like the one you see here:
 
-![Telemetry Dashboard](image_d2e886.png)
+![Telemetry Dashboard](image_d2e886.png.png)
 
 ## Writing the Thermostat Code
 

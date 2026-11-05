@@ -1,4 +1,4 @@
-# 05 Challenges - For Nerds
+# 05 Challenges 
 
 Congratulations! You have successfully built a functional Thermal Management System prototype for the SunbYte mission. 
 

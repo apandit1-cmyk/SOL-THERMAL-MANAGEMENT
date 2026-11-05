@@ -12,16 +12,16 @@ Keep your LED wired exactly as it was in the previous step. Now, let's add the s
 
 1. **Provide Power (5V):** Run a wire (e.g., red) from the Arduino's `5V` pin to the positive (`+`) rail on your breadboard.
 2. **Place the Thermistor:** Plug one leg of the blue thermistor into the 5V `+` rail, and the other leg into a new row on the breadboard (e.g., row 10).
-3. **Add the 10kΩ Resistor (Voltage Divider):** Connect the fixed 10kΩ resistor from the thermistor's row (row 10), across the middle gap of the breadboard, and into a new hole on the other side.
-4. **Connect to Ground:** Run a black wire from the end of the 10kΩ resistor to the ground (`-`) rail.
-5. **Connect the Signal:** Run a wire (e.g., green) from Arduino Analog Pin `A0` to the middle connection point between the thermistor and the 10kΩ resistor (e.g., row 10).
+3. **Add the Resistor (Voltage Divider):** Connect the fixed resistor from the thermistor's row (row 10), across the middle gap of the breadboard, and into a new hole on the other side.
+4. **Connect to Ground:** Run a black wire from the end of the resistor to the ground (`-`) rail.
+5. **Connect the Signal:** Run a wire (e.g., green) from Arduino Analog Pin `A0` to the middle connection point between the thermistor and the resistor (e.g., row 10).
 
 *(Refer to the updated diagram below to check your wiring)*
 ![Activity A Task 3 Circuit](ACTIVITY-A-TASK-3.png)
 
 ## Writing the Code
 
-Instead of digital signals (`HIGH`/`LOW`), we will use **analog** signals to read a range of values from our sensor[cite: 16]. 
+Instead of digital signals (`HIGH`/`LOW`), we will use **analog** signals to read a range of values from our sensor. 
 
 Open your Arduino IDE and update your code. We are introducing `Serial.begin(9600)` so the Arduino can talk to your laptop, and `analogRead()` to measure the voltage. 
 

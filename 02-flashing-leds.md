@@ -15,7 +15,7 @@ Here is the list of components you need:
 1. **Connect Ground:** Run a black wire from one of the Arduino's `GND` pins to the negative (`-`) rail on your breadboard.
 2. **Place the LED:** Insert the LED into the breadboard. Note that the longer leg is positive (anode) and the shorter leg is negative (cathode).
 3. **Add the Resistor:** Connect the resistor from the LED's short leg (negative) to the ground rail (`-`). This prevents the LED from burning out by limiting the electrical current.
-4. **Connect the Signal:** Run a wire (e.g., green) from Arduino Digital Pin `4` to the row containing the LED's long leg (positive).
+4. **Connect the Signal:** Run a wire (e.g., green) from Arduino Digital Pin `1` to the row containing the LED's long leg (positive).
 
 *(Refer to the diagram below to check your wiring)*  
 ![Activity A Task 2 Circuit](ACTIVITY-A-TASK-2.png)
